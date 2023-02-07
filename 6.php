@@ -53,3 +53,14 @@ $gabe->age = 62;
 $anne->age = 25; // Конечное значение возраста для обеих переменных
 
 echo '<br>' . "Гейб - $gabe->age" . '<br>' . "Анна - $anne->age";
+
+// Клонирование объекта
+echo '<h4>Клонирование объекта</h4>';
+
+$tom = clone $tim; // команда clone клонируют переменную, а не создает ссылку на неё
+echo $tom->age;
+$tom->age = 25;
+$tim->name = 'Тим';
+$tom->name = 'Том';
+
+echo '<br>' . "$tim->name - $tim->age" . '<br>' . "$tom->name - $tom->age";
