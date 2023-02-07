@@ -63,4 +63,4 @@ echo '<br> Имя класса - ' . $class1->class_name;
 $class1->function_name();
  
 echo '<br> Версия PHP - ' . PHP_VERSION;
-echo '<br> Символ конца строки ОС - ' .  PHP_EOL; // Почему-то нет
+echo '<br> Символ конца строки ОС - ' .  PHP_EOL; // Почему-то не работает
