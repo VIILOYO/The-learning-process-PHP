@@ -22,3 +22,4 @@
 Файл 14.php - switch и goto.  
 Файл 15.php - Цикл while.  
 Файл 16.php - Цикл do while и for.  
+Файл 17.php - Массивы в PHP.  
