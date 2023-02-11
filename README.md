@@ -20,3 +20,4 @@
 Файл 12dop.php - Задачи на if, else, elseif. switch() case.  
 Файл 13.php - Логические операторы || и &&, or и and. Функция file_get(put)_content().  
 Файл 14.php - switch и goto.  
+Файл 15.php - Цикл while.  

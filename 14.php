@@ -1,5 +1,5 @@
 <!-- switch и goto -->
-<title>Обучение PHP 13</title>
+<title>Обучение PHP 14</title>
 
 <?php
 // switch и case
