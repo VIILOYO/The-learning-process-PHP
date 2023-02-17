@@ -1,0 +1,43 @@
+<!-- Форма для 29.php -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML форма</title>
+    <style>
+        .field {
+            clear:both;
+            text-align:right;
+            line-height:25px;
+        }
+        label {
+            float:left;
+            padding-right:10px;
+        }
+        .main {float:left}
+    </style>
+</head>
+<body>
+    <form action="29.php" method="post">
+        <div class="main">
+            <div class="field">
+                <label for="name">Имя</label>
+                <input type="text" name="name" placeholder="Введите имя">
+            </div>  
+            <div class="field">
+                <label for="password">Пароль</label>
+                <input type="password" name="pass" placeholder="Введите пароль">
+            </div>  
+            <div class="field">
+                <label for="message">Сообщение</label>
+                <textarea name="msg" cols="21" rows="5" placeholder="Введите сообщение"></textarea>
+            </div>  
+            <div class="field">
+                <input type="submit" value="Отправить">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
